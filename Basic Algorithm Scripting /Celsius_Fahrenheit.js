@@ -5,4 +5,13 @@ function convertToF (celsius) {
 	return fahrenheit;
 }
 
-convertToF(30);
+//convertToF(30);
+
+//Convert Fahrenheit to Celsius
+
+function convertToC (fahrenheit) {
+	let celsius = (fahrenheit - 32) * (5/9);
+	return celsius;
+}
+
+//convertToC(145);
